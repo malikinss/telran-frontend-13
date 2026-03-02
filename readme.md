@@ -37,8 +37,7 @@ This project implements a **selection sort utility** in JavaScript with modular 
 
 Project structure:
 
-`````
-
+```
 ./src/
 ├─ homework.js                 # Demonstration / main entry
 ├─ utils/
@@ -47,7 +46,7 @@ Project structure:
 │   └─ helpers.js              # Validation and helper functions
 └─ index.html                   # HTML entry point for browser demo
 
-````id="1t0x07"
+```
 
 ---
 
@@ -78,9 +77,9 @@ Time complexity: O(n²)
 
 - Defines the ordering of elements.
 - Should return:
-  - `< 0` → `a` comes before `b`
-  - `> 0` → `b` comes before `a`
-  - `0` → no change
+    - `< 0` → `a` comes before `b`
+    - `> 0` → `b` comes before `a`
+    - `0` → no change
 
 Examples:
 
@@ -93,7 +92,7 @@ selectionSort(arr, (a, b) => b - a);
 
 // Shuffle
 selectionSort(arr, () => Math.random() - 0.5);
-`````
+```
 
 ### 3️⃣ Input Validation
 
